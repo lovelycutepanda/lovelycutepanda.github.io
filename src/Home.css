@@ -1,0 +1,8 @@
+#home {
+    min-height: 50vh;
+    padding-top: 100px;
+}
+
+#home p {
+    font-size: 40px;
+}

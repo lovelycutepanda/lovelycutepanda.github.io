@@ -9,10 +9,10 @@ import Footer from './Footer.js';
 
 function App() {
   return (
-    <div id="app" className="bg-dark text-light">
+    <div id="app" className="text-light">
       <div id="container" className="d-flex flex-column mx-auto px-2">
 
-        <Navbar collapseOnSelect bg="dark" variant="dark" expand="sm" sticky="top">
+        <Navbar collapseOnSelect variant="dark" expand="sm" sticky="top">
           <Navbar.Brand href="#">Dicky Ku</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
