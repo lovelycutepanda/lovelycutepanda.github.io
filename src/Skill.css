@@ -1,3 +1,22 @@
-#skill {
-    padding-top: 60px;
+#skill .skill-item {
+    width: 400px;
+    margin-bottom: 28px;
+    background-color: rgb(45, 53, 63);
+    border-radius: 10px;
+    padding: 30px 30px 40px 30px;
+}
+
+#skill .skill-data {
+    margin-top: 35px;
+    height: 30px;
+}
+
+#skill .progress {
+    height: 10px;
+    background-color: rgb(152, 170, 154);
+}
+
+#skill .progress-bar {
+    border-radius: 0.375rem;
+    background-color: rgb(0, 121, 20);
 }

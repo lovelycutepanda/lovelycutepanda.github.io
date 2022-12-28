@@ -12,18 +12,22 @@ function App() {
     <div id="app" className="text-light">
       <div id="container" className="d-flex flex-column mx-auto px-2">
 
-        <Navbar collapseOnSelect variant="dark" expand="sm" sticky="top">
-          <Navbar.Brand href="#">Dicky Ku</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
-              <Nav.Link href="#about" className="px-3">About</Nav.Link>
-              <Nav.Link href="#skill" className="px-3">Skills</Nav.Link>
-              <Nav.Link href="#career" className="px-3">Career</Nav.Link>
-              <Nav.Link href="#project" className="px-3">Projects</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
+        
+          <Navbar id="navbar" collapseOnSelect variant="dark" expand="sm" sticky="top">
+            <Navbar.Brand href="#">Dicky Ku</Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="ms-auto">
+                
+                <Nav.Link href="#about" className="px-3">About</Nav.Link>
+                <Nav.Link href="#skill" className="px-3">Skills</Nav.Link>
+                <Nav.Link href="#career" className="px-3">Career</Nav.Link>
+                <Nav.Link href="#project" className="px-3">Projects</Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+          </Navbar>
+        
+        
         
         <Home />
         <About />

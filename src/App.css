@@ -1,6 +1,8 @@
 #app {
     min-height: 100vh;
     background-color: rgb(30, 35, 44);
+    font-family: "Poppins";
+    font-weight: 500;
 }
 
 #container {
@@ -16,7 +18,7 @@
 }
 
 section {
-    padding-top: 60px;
+    padding-top: 80px;
 }
 
 h2 {

@@ -1,10 +1,84 @@
 import './Skill.css';
+import { Container, Row, Col, ProgressBar } from 'react-bootstrap';
 
 function Skill() {
+
+  const skills = [
+    {
+      title: "Programming",
+      content: [
+        {
+          item: "C/C++",
+          rating: 10
+        }, {
+          item: "Javascript",
+          rating: 9
+        }, {
+          item: "Python",
+          rating: 8
+        }, {
+          item: "Matlab",
+          rating: 6
+        }
+      ]
+    }, {
+      title: "Computer",
+      content: [
+        {
+          item: "HTML/CSS",
+          rating: 9
+        }, {
+          item: "LaTeX",
+          rating: 8
+        }, {
+          item: "Lightworks",
+          rating: 8
+        }, {
+          item: "GeoGebra",
+          rating: 6
+        }
+      ]
+    }, {
+      title: "Language",
+      content: [
+        {
+          item: "Cantonese",
+          rating: 10
+        }, {
+          item: "English",
+          rating: 9
+        }, {
+          item: "Mandarin",
+          rating: 8
+        }
+      ]
+    }
+  ]
+
   return (
     <section id="skill">
       <h2>Skills</h2>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <Container fluid className="mx-auto">
+        <Row>
+          {skills.map(({title, content}, index) => 
+            <Col className="d-flex px-3 justify-content-center" key={title} lg={12/skills.length}>
+              <Container className="skill-item">
+                <h5>{title}</h5>
+                {content.map(({item, rating}) => 
+                  <div className="skill-title" key={item}>
+                    <div className="d-flex justify-content-between skill-data">
+                      <p><b>{item}</b></p>
+                      <p>{rating}/10</p>
+                    </div>
+                    <ProgressBar now={rating*10} />
+                  </div>
+                )}
+              </Container>
+            </Col>
+          )}
+        </Row>
+      </Container>
+      
     </section>
   );
 }
