@@ -9,12 +9,12 @@
     max-width: 1200px;
 }
 
-.navbar-brand {
-    font-family: "Dancing Script";
-}
-
 .navbar {
     background-color: rgb(30, 35, 44);
+}
+
+.navbar-brand {
+    font-family: "Dancing Script";
 }
 
 section {
