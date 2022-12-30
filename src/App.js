@@ -23,7 +23,7 @@ function App() {
 
   const activeSection = useScrollSpy({
     sectionElementRefs: sectionRefs,
-    offsetPx: -60,
+    offsetPx: -200,
   });
 
   return (
@@ -48,9 +48,9 @@ function App() {
             <Component />
           </div>)}
 
-        <Footer />
-
       </div>
+
+      <Footer />
     </div>
   );
 }

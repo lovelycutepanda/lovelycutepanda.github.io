@@ -1,4 +1,37 @@
 #footer {
-    padding-top: 60px;
-    min-height: 160px;
+    padding-top: 0;
+    background-color: rgb(21, 24, 26);
+    min-height: 300px;
+    position: relative;
+}
+
+#footer .footer-box {
+    max-width: 1000px;
+    padding-top: 20px;
+}
+
+#footer .footer-box .container-fluid {
+    padding-bottom: 50px;
+}
+
+#footer .footer-box .name {
+    font-size: calc(1.325rem + .9vw);
+}
+
+#footer .footer-box a {
+    text-decoration: none;
+    color: inherit;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+#footer .footer-box .contact p {
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+#footer .copyright {
+    position: absolute;
+    bottom: 0;
 }
