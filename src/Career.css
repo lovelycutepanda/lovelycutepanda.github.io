@@ -1,0 +1,115 @@
+#career .timeline-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 40px 0;
+}
+
+#career .timeline-container::after {
+    background-color: #75d17d;
+    content: '';
+    position: absolute;
+    left: calc(50% - 2px);
+    width: 4px;
+    height: 100%;
+}
+
+#career .timeline-container .right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#career .timeline-container .timeline-item-container {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#career .timeline-container .timeline-item-container .circle {
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 12px;
+    width: 20px;
+    height: 20px;
+    z-index: 100;
+    left: calc(50% - 10px);
+}
+
+#career .timeline-container .timeline-item-container .timeline-item {
+    width: 47%;
+    background-color: rgb(45, 53, 63) !important;
+}
+
+#career .timeline-container .timeline-item-container .timeline-item span {
+    margin-bottom: 10px;
+}
+
+#career .timeline-container .timeline-item-container .timeline-item p {
+    margin-bottom: 0;
+}
+
+#career .timeline-container .timeline-item-container .timeline-item ul {
+    padding-inline-start: 20px;
+}
+
+#career .timeline-container .timeline-item-container .timeline-item li {
+    color: rgb(172, 172, 172);
+}
+
+#career .timeline-container .arrow {
+    position: absolute;
+    top: 10px;
+    content: "";
+    height: 0;
+    width: 0;
+    z-index: 1;
+    border: medium solid;
+}
+  
+#career .timeline-container .left .arrow {
+    left: calc(47% - 2px);
+    border-width: 12px 0 12px 12px;
+    border-color: transparent transparent transparent rgb(45, 53, 63);
+}
+
+#career .timeline-container .right .arrow {
+    right: calc(47% - 2px);
+    border-width: 12px 12px 12px 0;
+    border-color: transparent rgb(45, 53, 63) transparent transparent;
+}
+  
+@media only screen and (max-width: 768px) {
+
+    #career .timeline-container::after {
+        left: 15px;
+    }
+
+    #career .timeline-container .timeline-item-container .circle {
+        left: 0;
+    }
+
+    #career .timeline-container .timeline-item-container .timeline-item {
+        width: calc(96% - 20px);
+        background-color: rgb(45, 53, 63) !important;
+    }
+
+    #career .timeline-container .left {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #career .timeline-container .left .arrow {
+        left: auto;
+        right: calc(96% - 22px);
+        border-width: 12px 12px 12px 0;
+        border-color: transparent rgb(45, 53, 63) transparent transparent;
+    }
+
+    #career .timeline-container .right .arrow {
+        right: calc(96% - 22px);
+        border-width: 12px 12px 12px 0;
+        border-color: transparent rgb(45, 53, 63) transparent transparent;
+    }
+}
+
+
