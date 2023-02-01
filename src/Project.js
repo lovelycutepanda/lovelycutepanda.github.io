@@ -5,31 +5,37 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import csci2720 from "./photos/csci2720-project.png";
-import csci3100 from "./photos/csci3100-project.png";
-import chess from "./photos/simple-chess-program.png";
-import file from "./photos/file-compression-program.png";
+import maze_game from "./photos/maze-game.png"
+import csci2720_project from "./photos/csci2720-project.png";
+import csci3100_project from "./photos/csci3100-project.png";
+import simple_chess_program from "./photos/simple-chess-program.png";
+import file_compression_program from "./photos/file-compression-program.png";
 
 function Project() {
 
   const projects = [
     {
-      img: csci2720,
+      img: maze_game,
+      title: "Maze game", 
+      description: "A GUI maze game written in C++ using wxWidgets framework.",
+      link: "https://github.com/lovelycutepanda/maze-game"
+    }, {
+      img: csci2720_project,
       title: "CSCI2720 Project (group project)", 
       description: "A web application that allows users to check details of Hong Kong cultural events in different locations.",
       link: "https://github.com/lovelycutepanda/csci2720-project"
     }, {
-      img: csci3100,
+      img: csci3100_project,
       title: "CSCI3100 Project (group project)", 
       description: "A strategic, point-and-click game simulating a student's journey in the Chinese University of Hong Kong.",
       link: "https://github.com/lovelycutepanda/csci3100-project"
     }, {
-      img: chess,
+      img: simple_chess_program,
       title: "Simple Chess Program", 
       description: "A simple chess program written in Python.",
       link: "https://github.com/lovelycutepanda/simple-chess-program"
     }, {
-      img: file,
+      img: file_compression_program,
       title: "File Compression Program", 
       description: "A file compression program written in Matlab using Huffman's algorithm.",
       link: "https://github.com/lovelycutepanda/file-compression-program"
