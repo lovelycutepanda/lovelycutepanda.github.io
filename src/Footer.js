@@ -14,7 +14,7 @@ function Footer() {
           <Col md={6} className="d-flex flex-column">
             <a href="#" className="name">Dicky Ku</a>
             <a href="https://github.com/lovelycutepanda" target="_blank"><FontAwesomeIcon icon={faGithub} size={"2xl"}/> Github: lovelycutepanda</a>
-            <a href="https://www.linkedin.com/in/nok-tik-ku-92a130243" target="_blank"><FontAwesomeIcon icon={faLinkedin} size={"2xl"}/> LinkedIn: Nok Tik Ku</a>
+            <a href="https://www.linkedin.com/in/dicky-ku" target="_blank"><FontAwesomeIcon icon={faLinkedin} size={"2xl"}/> LinkedIn: Nok Tik Ku</a>
           </Col>
           <Col md={6} className="d-flex contact justify-content-md-end justify-content-start">
             <div>

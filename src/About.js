@@ -20,7 +20,7 @@ function About() {
               In my spare time, I use to practise my coding skills through projects and platforms like leetcode.
             </p>
             <a href="https://github.com/lovelycutepanda" target="_blank"><FontAwesomeIcon icon={faGithub} size={"2xl"}/></a>
-            <a href="https://www.linkedin.com/in/nok-tik-ku-92a130243" target="_blank"><FontAwesomeIcon icon={faLinkedin} size={"2xl"}/></a>
+            <a href="https://www.linkedin.com/in/dicky-ku" target="_blank"><FontAwesomeIcon icon={faLinkedin} size={"2xl"}/></a>
           </Col>
         </Row>
       </Container>
