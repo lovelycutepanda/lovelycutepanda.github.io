@@ -5,13 +5,18 @@ function Career() {
 
   const timelineData = [
     {
+      company: "ASMPT Hong Kong Limited",
+      title: "Software Engineer",
+      date: "06/2023 - Present",
+      duties: []
+    }, {
       company: "STFA Lee Shau Kee College",
       title: "Tutor",
-      date: "10/2022 - Present",
+      date: "10/2022 - 05/2023",
       duties: [
-        "Teach in a class of 20+ f2-f3 students on Olympiad level Mathematics",
-        "Prepare and explain 150+ questions on different topics",
-        "Train students for Mathematics Olympiad competitions"
+        "Taught in a class of 20+ f2-f3 students on Olympiad level Mathematics",
+        "Prepared and explained 150+ questions on different topics",
+        "Trained students for Mathematics Olympiad competitions"
       ]
     }, {
       company: "Smart Business Consultancy Limited",
